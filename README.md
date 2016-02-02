@@ -12,9 +12,9 @@ In the app, after you log into an Office 365 account, you can create single and 
 
 * [Install Android SDK](#install-android-sdk)
 
-* [Configuration](#configuration)
-
 * [Register the App with Office 365 Developer Account](#register-the-app-with-office-365-developer-account)
+
+* [Configuration](#configuration)
 
 * [Dependencies](#dependencies)
 
@@ -61,6 +61,32 @@ The Android SDK can be downloaded from the Android Developer site [here](http://
 
 For the full installation instructions visit [the Android Developer Website](http://developer.android.com/sdk/installing/index.html).
 
+###Register the App with Office 365 Developer Account
+
+1. To register your app you need to have an account with the Office 365 Dev Program. To sign up, visit [dev.office.com/devprogram](http://dev.office.com/devprogram) or you can go directly to the [profile creation page](https://profile.microsoft.com/RegSysProfileCenter/wizardnp.aspx?wizid=14b845d0-938c-45af-b061-f798fbb4d170&lcid=1033) and create a profile. Once you have created your profile, you also need to sign up for an Office 365 developer account. The link to create your account will be in the confirmation email you receive after creating your profile. You can view detailed instructions on signing up for a developer account [here](https://msdn.microsoft.com/en-us/library/office/fp179924.aspx#o365_signup).
+
+2. Once you have created an Office 365 Dev Account, go to [graph.microsoft.io](http://graph.microsoft.io/en-us/) to register your app and click "App Registration" then click "Office 365 App Registration Tool" or you can go directly to the registration page [dev.office.com/app-registration](http://dev.office.com/app-registration).
+
+![](/img/ms-graph-get-started.jpg) | ![](/img/ms-graph-get-started-2.jpg)
+--- | ---
+
+3. Give your app a name and select "Native App" in the "App type" line. Then pick a "Redirect URI" the preferred naming convention is: "your Office 365 domain + a unique name for your app" for example I named my app https://greencricketcreations.onmicrosoft.com/MyCalendarApp, but it is not required. The Redirect URI isn't a real website, it is more of a unique identifier for your app. Once you have entered a name and Redirect URI set the permissions. The necessary permissions are:
+
+  * Read user profiles
+  * Read user contacts
+  * Read and write user calendars
+  * Read user calendars
+  * Send mail as user
+  * Read and write user mail
+
+Once you have filled out the form, click "Register App".
+
+![](/img/ms-graph-get-started-3.jpg)
+
+5. When your registration is complete, you will receive a "Client ID". Make note of the "Client ID" and "Redirect URI" you will need them for step 7 in [Configuration](#configuration).
+
+6. If you need more control of the registration options, you can follow these [detailed instructions](https://github.com/jasonjoh/office365-azure-guides/blob/master/RegisterAnAppInAzure.md) to register your app in Azure. Note that these instructions use the Azure classic portal. You can access the [Azure classic portal here](https://manage.windowsazure.com/).
+
 ###Configuration
 
 1. Download or clone [The Interop REST Mail Calendar Android App](https://github.com/OfficeDev/Interop-REST-Mail-Contacts-Calendar-Sample).
@@ -96,19 +122,8 @@ For the full installation instructions visit [the Android Developer Website](htt
 ![Click the three vertical dots](/img/android-studio-run-emulator-settings.jpg) | ![Click Settings](/img/android-studio-run-emulator-select-settings.jpg) | ![Enter your "CLIENT ID" and "REDIRECT URI"](/img/android-studio-run-emulator-string-entry.jpg)
 --- | --- | ---
 
-###Register the App with Office 365 Developer Account
+8. Click "CONNECT TO OFFICE 365" and the app will start
 
-1. To register your App you need to have an account with the Office 365 Dev Program. To sign up, visit [dev.office.com/devprogram](http://dev.office.com/devprogram). 
+![](/img/emulator-screen.jpg)
 
-2. Once you have created an Office 365 Dev Account, go to [graph.microsoft.io](http://graph.microsoft.io/) to register your app and click "Get started" or you can go directly to the registration page [dev.office.com/app-registration](http://dev.office.com/app-registration).
-
-3. Give your app a name and permissions and click "Register App" then enter the "CLIENT ID" and "REDIRECT URI". The permissions the app needs are:
-
-  * Read user profiles
-  * Read user contacts
-  * Read and write user calendars
-  * Read user calendars
-  * Send mail as user
-  * Read and write user mail
-
-4. If you need more control of the registration options, you can follow these [detailed instructions](https://github.com/jasonjoh/office365-azure-guides/blob/master/RegisterAnAppInAzure.md) to register your app in Azure. Note that these instructions use the Azure classic portal. You can access the [Azure classic portal here](https://manage.windowsazure.com/).
+9. Your app is now ready. Go create something awesome!
