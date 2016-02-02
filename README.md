@@ -69,6 +69,8 @@ For the full installation instructions visit [the Android Developer Website](htt
 
 3. Click on "Open an existing Android Studio project" and select the folder that contains the app, then open the "MeetingManagerAndroid" folder then the "Android" folder and select the build.gradle file.
 
+![Open the App in Android Studio](/img/android-studio-open-project.jpg)
+
 4. Click Run > Run 'app' or click the green triangle play button. 
 
 5. Click the down arrow next to the selection for "Android virtual device:" to select a different device or click the ellipsis next to it to add more devices, then click "Ok".
