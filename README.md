@@ -67,7 +67,7 @@ For the full installation instructions visit [the Android Developer Website](htt
 
 2. Once you have created an Office 365 Dev Account, go to [graph.microsoft.io](http://graph.microsoft.io/en-us/) to register your app and click "App Registration" then click "Office 365 App Registration Tool" or you can go directly to the registration page [dev.office.com/app-registration](http://dev.office.com/app-registration).
 
-  ![](/img/ms-graph-get-started.jpg) | ![](/img/ms-graph-get-started-2.jpg)
+  ![Get started](/img/ms-graph-get-started.jpg) | ![Next step](/img/ms-graph-get-started-2.jpg)
   --- | ---
 
 3. Give your app a name and select "Native App" in the "App type" line. Then pick a "Redirect URI" the preferred naming convention is: "your Office 365 domain + a unique name for your app" for example I named my app https://greencricketcreations.onmicrosoft.com/MyCalendarApp, but it is not required. The Redirect URI isn't a real website, it is more of a unique identifier for your app. Once you have entered a name and Redirect URI set the permissions. The necessary permissions are:
