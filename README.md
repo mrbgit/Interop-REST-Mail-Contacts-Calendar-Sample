@@ -119,7 +119,7 @@ For the full installation instructions visit [the Android Developer Website](htt
 
 7. You can enter your "CLIENT ID" and "REDIRECT URI" by clicking on the three vertical dots in the upper right of the emulator screen and click "settings" and enter them there or navigate to "app" > "src/main" > "java" > "com/microsoft/office365/meetingmgr" > Constants.java and paste your "CLIENT ID" and "REDIRECT URI" as strings and save the file.
 
-  ![Click the three vertical dots](/img/android-studio-run-emulator-settings.jpg) | ![Click Settings](/img/android-studio-run-emulator-select-settings.jpg) | ![Enter your "CLIENT ID" and "REDIRECT URI"](/img/android-studio-run-emulator-string-entry.jpg)
+  ![Click the three vertical dots](/img/android-studio-run-emulator-settings-2.jpg) | ![Click Settings](/img/android-studio-run-emulator-select-settings-2.jpg) | ![Enter your "CLIENT ID" and "REDIRECT URI"](/img/android-studio-run-emulator-string-entry-2.jpg)
   --- | --- | ---
 
 8. Click "CONNECT TO OFFICE 365" and the app will start
