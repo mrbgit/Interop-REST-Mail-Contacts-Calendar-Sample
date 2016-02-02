@@ -79,9 +79,9 @@ For the full installation instructions visit [the Android Developer Website](htt
   * Send mail as user
   * Read and write user mail
 
-Once you have filled out the form, click "Register App".
+4. Once you have filled out the form, click "Register App".
 
-  ![](/img/ms-graph-get-started-3.jpg)
+  ![Register App](/img/ms-graph-get-started-3.jpg)
 
 5. When your registration is complete, you will receive a "Client ID". Make note of the "Client ID" and "Redirect URI" you will need them for step 7 in [Configuration](#configuration).
 
