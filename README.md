@@ -139,8 +139,18 @@ For the full installation instructions visit [the Android Developer Website](htt
   ![Click the three vertical dots](/img/android-studio-run-emulator-settings-2.jpg) | ![Click Settings](/img/android-studio-run-emulator-select-settings-2.jpg) | ![Enter your "CLIENT ID" and "REDIRECT URI"](/img/android-studio-run-emulator-string-entry-2.jpg)
   --- | --- | ---
 
-9. Click "CONNECT TO OFFICE 365" and the app will start
+9. Click "CONNECT TO OFFICE 365" and the app will start. 
 
   ![](/img/emulator-screen.jpg)
 
-10. Your app is now ready. Go create something awesome!
+  The basic app is able to:
+
+  View your calendar | View meeting details | Send a message to other meeting attendees
+  --- | --- | ---
+  ![Calendar Page](/img/app-calendar.jpg) | ![Details Page](/img/app-meeting-details.jpg) | ![Send a message](/img/app-reply-all.jpg)
+
+  Modify meeting details | Create a new meeting
+  --- | ---
+  ![modify meeting details](/img/app-modify-meeting.jpg) | ![create new meeting](/img/app-create-meeting.jpg)
+
+11. Your app is now ready for you to build with. Go create something awesome!
