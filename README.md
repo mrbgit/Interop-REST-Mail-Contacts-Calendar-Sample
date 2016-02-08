@@ -70,7 +70,7 @@ For the full installation instructions visit [the Android Developer Website](htt
   ![Get started](/img/ms-graph-get-started.jpg) | ![Next step](/img/ms-graph-get-started-2.jpg)
   --- | ---
 
-3. Give your app a name and select "Native App" in the "App type" line. Then pick a "Redirect URI" the preferred naming convention is: "your Office 365 domain + a unique name for your app" for example I named my app https://greencricketcreations.onmicrosoft.com/MyCalendarApp, but it is not required. The Redirect URI isn't a real website, it is more of a unique identifier for your app. Once you have entered a name and Redirect URI set the permissions. The necessary permissions are:
+3. Give your app a name and select "Native App" in the "App type" line. Then pick a "Redirect URI" the preferred naming convention is: "your Office 365 domain + a unique name for your app", but it is not required, it must however be formatted as a URI and be unique. For example I named my app https://greencricketcreations.onmicrosoft.com/MyCalendarApp. The Redirect URI isn't a real website, it is more of a unique identifier for your app. Once you have entered a name and Redirect URI set the permissions. The necessary permissions are:
 
   * Read user profiles
   * Read user contacts
@@ -103,7 +103,24 @@ For the full installation instructions visit [the Android Developer Website](htt
 
   ![Run the app](/img/android-studio-run-app.jpg)
 
-5. Click the down arrow next to the selection for "Android virtual device:" to select a different device or click the ellipsis next to it to add more devices, then click "Ok".
+5. The first time you run the app you will need to add an ARM device to the emulator. To do this:  
+
+  Click on the ellipsis (three dots in a row) next to the down arrow. 
+  ![Add ARM emulator](/img/android-studio-add-emulator.jpg)
+
+  Click "Create Virtual Device" on the next menu.
+  ![Create virtual device](/img/android-studio-create-virtual-device.jpg)
+
+  Choose a device with a resolution higher than 1200 X 800 and click "Next"
+  ![Choose new device](/img/android-studio-choose-new-device.jpg)
+
+  Check "Show downloadable system images" and select an option with "armeabi-v7a" for ABI and click next. 
+  ![Choose emulator OS](/img/android-studio-choose-os.jpg)
+
+  Select the device you created and click the green arrow at the end of the line
+  ![Click finish](/img/android-studio-click-finish.jpg)
+
+6. The next time your start the app, you can skip step 5 and select a device by clicking the down arrow next to "Android virtual device:". To add more devices simply repeat step 5 for as many devices as you want to add.
 
  * If you get the error message: 
 
@@ -115,15 +132,25 @@ For the full installation instructions visit [the Android Developer Website](htt
 
   ![Start the emulator](/img/android-studio-run-emulator.jpg)
 
-6. Your app will now start in the emulator. But in order to connect the app to an account you first have to [Register the app with Office 365](#register-the-app-with-office-365-developer-account) and copy your "CLIENT ID" and "REDIRECT URI".
+7. Your app will now start in the emulator. But in order to connect the app to an account you first have to [Register the app with Office 365](#register-the-app-with-office-365-developer-account) and copy your "CLIENT ID" and "REDIRECT URI".
 
-7. You can enter your "CLIENT ID" and "REDIRECT URI" by clicking on the three vertical dots in the upper right of the emulator screen and click "settings" and enter them there or navigate to "app" > "src/main" > "java" > "com/microsoft/office365/meetingmgr" > Constants.java and paste your "CLIENT ID" and "REDIRECT URI" as strings and save the file.
+8. You can enter your "CLIENT ID" and "REDIRECT URI" by clicking on the three vertical dots in the upper right of the emulator screen and click "settings" and enter them there or navigate to "app" > "src/main" > "java" > "com/microsoft/office365/meetingmgr" > Constants.java and paste your "CLIENT ID" and "REDIRECT URI" as strings and save the file.
 
   ![Click the three vertical dots](/img/android-studio-run-emulator-settings-2.jpg) | ![Click Settings](/img/android-studio-run-emulator-select-settings-2.jpg) | ![Enter your "CLIENT ID" and "REDIRECT URI"](/img/android-studio-run-emulator-string-entry-2.jpg)
   --- | --- | ---
 
-8. Click "CONNECT TO OFFICE 365" and the app will start
+9. Click "CONNECT TO OFFICE 365" and the app will start. 
 
   ![](/img/emulator-screen.jpg)
 
-9. Your app is now ready. Go create something awesome!
+  The basic app is able to:
+
+  View your calendar | View meeting details | Send a message to other meeting attendees
+  --- | --- | ---
+  ![Calendar Page](/img/app-calendar.jpg) | ![Details Page](/img/app-meeting-details.jpg) | ![Send a message](/img/app-reply-all.jpg)
+
+  Modify meeting details | Create a new meeting
+  --- | ---
+  ![modify meeting details](/img/app-modify-meeting.jpg) | ![create new meeting](/img/app-create-meeting.jpg)
+
+11. Your app is now ready for you to build with. Go create something awesome!
