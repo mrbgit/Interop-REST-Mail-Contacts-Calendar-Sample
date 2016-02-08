@@ -70,7 +70,7 @@ For the full installation instructions visit [the Android Developer Website](htt
   ![Get started](/img/ms-graph-get-started.jpg) | ![Next step](/img/ms-graph-get-started-2.jpg)
   --- | ---
 
-3. Give your app a name and select "Native App" in the "App type" line. Then pick a "Redirect URI" the preferred naming convention is: "your Office 365 domain + a unique name for your app" for example I named my app https://greencricketcreations.onmicrosoft.com/MyCalendarApp, but it is not required. The Redirect URI isn't a real website, it is more of a unique identifier for your app. Once you have entered a name and Redirect URI set the permissions. The necessary permissions are:
+3. Give your app a name and select "Native App" in the "App type" line. Then pick a "Redirect URI" the preferred naming convention is: "your Office 365 domain + a unique name for your app", but it is not required, it must however be formatted as a URI and be unique. For example I named my app https://greencricketcreations.onmicrosoft.com/MyCalendarApp. The Redirect URI isn't a real website, it is more of a unique identifier for your app. Once you have entered a name and Redirect URI set the permissions. The necessary permissions are:
 
   * Read user profiles
   * Read user contacts
@@ -117,7 +117,7 @@ For the full installation instructions visit [the Android Developer Website](htt
   Check "Show downloadable system images" and select an option with "armeabi-v7a" for ABI and click next. 
   ![Choose emulator OS](/img/android-studio-choose-os.jpg)
 
-  Select the device you created and click the green at the end of the line
+  Select the device you created and click the green arrow at the end of the line
   ![Click finish](/img/android-studio-click-finish.jpg)
 
 6. The next time your start the app, you can skip step 5 and select a device by clicking the down arrow next to "Android virtual device:". To add more devices simply repeat step 5 for as many devices as you want to add.
