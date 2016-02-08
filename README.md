@@ -105,13 +105,20 @@ For the full installation instructions visit [the Android Developer Website](htt
 
 5. The first time you run the app you will need to add an ARM device to the emulator. To do this:  
 
-  Click on the ellipsis (three dots in a row) next to the down arrow. | Click "Create Virtual Device" on the next menu. | Choose a device with a resolution higher than 1200 X 800 and click "Next"
-  ---| --- | ---
-  ![Add ARM emulator](/img/android-studio-add-emulator.jpg) | ![Create virtual device](/img/android-studio-create-virtual-device.jpg) | ![Choose new device](/img/android-studio-choose-new-device.jpg)
+  Click on the ellipsis (three dots in a row) next to the down arrow. 
+  ![Add ARM emulator](/img/android-studio-add-emulator.jpg)
 
-  Check "Show downloadable system images" and select an option with "armeabi-v7a" for ABI and click next. | Select the device you created and click the green at the end of the line
-  --- | ---
-  ![Choose emulator OS](/img/android-studio-choose-os.jpg) | ![Click finish](/img/android-studio-click-finish.jpg)
+  Click "Create Virtual Device" on the next menu.
+  ![Create virtual device](/img/android-studio-create-virtual-device.jpg)
+
+  Choose a device with a resolution higher than 1200 X 800 and click "Next"
+  ![Choose new device](/img/android-studio-choose-new-device.jpg)
+
+  Check "Show downloadable system images" and select an option with "armeabi-v7a" for ABI and click next. 
+  ![Choose emulator OS](/img/android-studio-choose-os.jpg)
+
+  Select the device you created and click the green at the end of the line
+  ![Click finish](/img/android-studio-click-finish.jpg)
 
 6. The next time your start the app, you can skip step 5 and select a device by clicking the down arrow next to "Android virtual device:". To add more devices simply repeat step 5 for as many devices as you want to add.
 
