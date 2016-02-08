@@ -103,7 +103,17 @@ For the full installation instructions visit [the Android Developer Website](htt
 
   ![Run the app](/img/android-studio-run-app.jpg)
 
-5. Click the down arrow next to the selection for "Android virtual device:" to select a different device or click the ellipsis next to it to add more devices, then click "Ok".
+5. The first time you run the app you will need to add an ARM device to the emulator. To do this:  
+
+  Click on the ellipsis (three dots in a row) next to the down arrow. | Click "Create Virtual Device" on the next menu. | Choose a device with a resolution higher than 1200 X 800 and click "Next"
+  ---| --- | ---
+  ![Add ARM emulator](/img/android-studio-add-emulator.jpg) | ![Create virtual device](/img/android-studio-create-virtual-device.jpg) | ![Choose new device](/img/android-studio-choose-new-device.jpg)
+
+  Check "Show downloadable system images" and select an option with "armeabi-v7a" for ABI and click next. | Select the device you created and click the green at the end of the line
+  --- | ---
+  ![Choose emulator OS](/img/android-studio-choose-os.jpg) | ![Click finish](/img/android-studio-click-finish.jpg)
+
+6. The next time your start the app, you can skip step 5 and select a device by clicking the down arrow next to "Android virtual device:". To add more devices simply repeat step 5 for as many devices as you want to add.
 
  * If you get the error message: 
 
@@ -115,15 +125,15 @@ For the full installation instructions visit [the Android Developer Website](htt
 
   ![Start the emulator](/img/android-studio-run-emulator.jpg)
 
-6. Your app will now start in the emulator. But in order to connect the app to an account you first have to [Register the app with Office 365](#register-the-app-with-office-365-developer-account) and copy your "CLIENT ID" and "REDIRECT URI".
+7. Your app will now start in the emulator. But in order to connect the app to an account you first have to [Register the app with Office 365](#register-the-app-with-office-365-developer-account) and copy your "CLIENT ID" and "REDIRECT URI".
 
-7. You can enter your "CLIENT ID" and "REDIRECT URI" by clicking on the three vertical dots in the upper right of the emulator screen and click "settings" and enter them there or navigate to "app" > "src/main" > "java" > "com/microsoft/office365/meetingmgr" > Constants.java and paste your "CLIENT ID" and "REDIRECT URI" as strings and save the file.
+8. You can enter your "CLIENT ID" and "REDIRECT URI" by clicking on the three vertical dots in the upper right of the emulator screen and click "settings" and enter them there or navigate to "app" > "src/main" > "java" > "com/microsoft/office365/meetingmgr" > Constants.java and paste your "CLIENT ID" and "REDIRECT URI" as strings and save the file.
 
   ![Click the three vertical dots](/img/android-studio-run-emulator-settings-2.jpg) | ![Click Settings](/img/android-studio-run-emulator-select-settings-2.jpg) | ![Enter your "CLIENT ID" and "REDIRECT URI"](/img/android-studio-run-emulator-string-entry-2.jpg)
   --- | --- | ---
 
-8. Click "CONNECT TO OFFICE 365" and the app will start
+9. Click "CONNECT TO OFFICE 365" and the app will start
 
   ![](/img/emulator-screen.jpg)
 
-9. Your app is now ready. Go create something awesome!
+10. Your app is now ready. Go create something awesome!
