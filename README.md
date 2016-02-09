@@ -8,62 +8,17 @@ In the app, after you log into an Office 365 account, you can create single and 
 
 ###Table of Contents
 
-* [System Requirements](#system-requirements)
-
-* [Install Android SDK](#install-android-sdk)
-
 * [Register the App with Office 365 Developer Account](#register-the-app-with-office-365-developer-account)
 
-* [Configuration](#configuration)
+* [Android Studio Configuration](#android-studio-configuration)
 
-* [Dependencies](#dependencies)
+  * [Install Android SDK](#install-android-sdk)
 
-###System Requirements
-
-To us the Interop REST Mail Contacts Calendar you need to install the Android SDK, which requires that your System meet the following requirements ([from the Android Developer Site](http://developer.android.com/sdk/index.html#Requirements)):
-
-#####Windows
-
-* Microsoft® Windows® 8/7/Vista (32 or 64-bit)
-* 2 GB RAM minimum, 4 GB RAM recommended
-* 400 MB hard disk space
-* At least 1 GB for Android SDK, emulator system images, and caches
-* 1280 x 800 minimum screen resolution
-* Java Development Kit (JDK) 7
-* Optional for accelerated emulator: Intel® processor with support for Intel® VT-x, Intel® EM64T (Intel® 64), and Execute Disable (XD) Bit functionality
-
-#####Mac OS X
-
-* Mac® OS X® 10.8.5 or higher, up to 10.9 (Mavericks)
-* 2 GB RAM minimum, 4 GB RAM recommended
-* 400 MB hard disk space
-* At least 1 GB for Android SDK, emulator system images, and caches
-* 1280 x 800 minimum screen resolution
-* Java Runtime Environment (JRE) 6
-* Java Development Kit (JDK) 7
-* Optional for accelerated emulator: Intel® processor with support for Intel® VT-x, Intel® EM64T (Intel® 64), and Execute Disable (XD) Bit functionality
-* On Mac OS, run Android Studio with Java Runtime Environment (JRE) 6 for optimized font rendering. You can then configure your project to use Java Development Kit (JDK) 6 or JDK 7.
-
-#####Linux
-
-* GNOME or KDE desktop
-* GNU C Library (glibc) 2.15 or later
-* 2 GB RAM minimum, 4 GB RAM recommended
-* 400 MB hard disk space
-* At least 1 GB for Android SDK, emulator system images, and caches
-* 1280 x 800 minimum screen resolution
-* Oracle® Java Development Kit (JDK) 7
-* Tested on Ubuntu® 14.04, Trusty Tahr (64-bit distribution capable of running 32-bit applications).
-
-###Install Android SDK
-
-The Android SDK can be downloaded from the Android Developer site [here](http://developer.android.com/sdk/index.html). You may also need to install the [Java SE Development Kit 7u80](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html). If you have questions about installing the Java SDK, you can refer to this [tutorial](http://www.wikihow.com/Install-the-Java-Software-Development-Kit).
-
-For the full installation instructions visit [the Android Developer Website](http://developer.android.com/sdk/installing/index.html).
+  * [Android Configuration](#android-configuration)
 
 ###Register the App with Office 365 Developer Account
 
-1. To register your app you need to have an account with the Office 365 Dev Program. To sign up, visit [dev.office.com/devprogram](http://dev.office.com/devprogram) or you can go directly to the [profile creation page](https://profile.microsoft.com/RegSysProfileCenter/wizardnp.aspx?wizid=14b845d0-938c-45af-b061-f798fbb4d170&lcid=1033) and create a profile. Once you have created your profile, you also need to sign up for an Office 365 developer account. The link to create your account will be in the confirmation email you receive after creating your profile. You can view detailed instructions on signing up for a developer account [here](https://msdn.microsoft.com/en-us/library/office/fp179924.aspx#o365_signup).
+1. No matter what you use to configure your app, you will need to register it with and Office 365 Developer Account. To register your app you need to have an account with the Office 365 Dev Program. To sign up, visit [dev.office.com/devprogram](http://dev.office.com/devprogram) or you can go directly to the [profile creation page](https://profile.microsoft.com/RegSysProfileCenter/wizardnp.aspx?wizid=14b845d0-938c-45af-b061-f798fbb4d170&lcid=1033) and create a profile. Once you have created your profile, you also need to sign up for an Office 365 developer account. The link to create your account will be in the confirmation email you receive after creating your profile. You can view detailed instructions on signing up for a developer account [here](https://msdn.microsoft.com/en-us/library/office/fp179924.aspx#o365_signup).
 
 2. Once you have created an Office 365 Dev Account, go to [graph.microsoft.io](http://graph.microsoft.io/en-us/) to register your app and click "App Registration" then click "Office 365 App Registration Tool" or you can go directly to the registration page [dev.office.com/app-registration](http://dev.office.com/app-registration).
 
@@ -87,7 +42,13 @@ For the full installation instructions visit [the Android Developer Website](htt
 
 6. If you need more control of the registration options, you can follow these [detailed instructions](https://github.com/jasonjoh/office365-azure-guides/blob/master/RegisterAnAppInAzure.md) to register your app in Azure. Note that these instructions use the Azure classic portal. You can access the [Azure classic portal here](https://manage.windowsazure.com/).
 
-###Configuration
+###Install Android SDK
+
+The Android SDK can be downloaded from the Android Developer site [here](http://developer.android.com/sdk/index.html). You may also need to install the [Java SE Development Kit 7u80](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html). If you have questions about installing the Java SDK, you can refer to this [tutorial](http://www.wikihow.com/Install-the-Java-Software-Development-Kit).
+
+For the full installation instructions visit [the Android Developer Website](http://developer.android.com/sdk/installing/index.html).
+
+###Android Configuration
 
 1. Download or clone [The Interop REST Mail Calendar Android App](https://github.com/OfficeDev/Interop-REST-Mail-Contacts-Calendar-Sample).
 
