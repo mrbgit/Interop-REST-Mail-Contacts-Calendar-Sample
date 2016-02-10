@@ -124,9 +124,7 @@ For the full installation instructions visit [the Android Developer Website](htt
 
   ![](/img/emulator-screen.jpg)
 
-11. Your app is now ready for you to build with. Go create something awesome!
-
-
+10. Your app is now ready for you to build with. Go create something awesome!
 
 ##Visual Studio Emulator Configuration
 
@@ -146,29 +144,29 @@ There are 2 ways to launch the Visual Studio Android Emulator, as a stand-alone 
 
 ####As a Stand-Alone Emulator
 
-1. To launch the Visual Studio Android Emulator as a stand-alone emulator, click on the Start menu and search for "emulator" and select "Visual Studio Emulator for Android"
+To launch the Visual Studio Android Emulator as a stand-alone emulator, click on the Start menu and search for "emulator" and select "Visual Studio Emulator for Android"
 
-  ![launch visual studio android emulator](/img/vs-emulator-start.jpg)
+![launch visual studio android emulator](/img/vs-emulator-start.jpg)
 
 ####As Part of Visual Studio
 
-1. To launch the Visual Studio Android Emulator as part of Visual Studio, click on the Start menu and search for "Visual Studio" and click on "Visual Studio 2015"
+To launch the Visual Studio Android Emulator as part of Visual Studio, click on the Start menu and search for "Visual Studio" and click on "Visual Studio 2015"
 
-  ![launch visual studio](/img/vs-start.jpg)
+![launch visual studio](/img/vs-start.jpg)
 
 ---
 
-2. Once the emulator has started choose a device.
+1. Once the emulator has started choose a device.
   
   ![choose a device](/img/vs-emulator-choose-device.jpg)
 
-3. When the emulator has started, open your project in Android Studio and start your app using steps 3 - 4 in the [Android Configuration](#android-configuration) section above.
+2. When you have chosen a device, open your project in Android Studio and start your app using steps 3 - 4 in the [Android Configuration](#android-configuration) section above.
 
-4. After running your app, instead of choosing to launch the emulator, select "Choose a running device" and then select a device using the VS Emulator then click "OK".
+3. After running your app, instead of choosing to launch the emulator, select "Choose a running device" and then select a device using the VS Emulator then click "OK".
   
-  ![choose the vs emulator](/img/choose-vs-emulator.jog) 
+  ![choose the vs emulator](/img/choose-vs-emulator.jpg) 
 
-5. Your app will now open the connect page in the Visual Studio Emulator for Android. To login and use the app complete steps 7 - 11 in the [Android Configuration](#android-configuration) section.
+4. Your app will now open the connect page in the Visual Studio Emulator for Android. To login and use the app complete steps 7 - 10 in the [Android Configuration](#android-configuration) section.
 
 ---
 
