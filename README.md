@@ -14,9 +14,13 @@ This example app demonstrates the Representational State Transfer (REST) interfa
 
   * [Android Configuration](#android-configuration)
 
-* [Visual Studio Configuration](#visual-studio-configuration)
+* [Visual Studio Emulator Configuration](#visual-studio-emulator-configuration)
   
   * [Install Visual Studio](#install-visual-studio)
+
+  * [Install Visual Studio Android Emulator](#install-visual-studio-android-emulator)
+
+  * [Launch the App in Visual Studio Android Emulator](#launch-the-app-in-visual-studio-android-emulator)
 
 In the app, after you log into an Office 365 account, you can view your calendar and create single or recurring meetings on your calendar. Meetings can be scheduled with a given location, time slot, and a set of invitees, where the available locations and attendees are queried from Office 365. Each invitee has the option to accept, decline, or tentatively accept a meeting, or to email the organizer. An organizer has the option to reply all or forward the meeting invitation, and to send a "running late" message to the invitees.
 
@@ -122,14 +126,33 @@ For the full installation instructions visit [the Android Developer Website](htt
 
 11. Your app is now ready for you to build with. Go create something awesome!
 
-##Visual Studio Configuration
+##Visual Studio Emulator Configuration
 
+Android Studio comes with its own Android emulator, but Microsoft has designed an emulator focused on performance, speed, and efficiency that can be used independently or in conjuction with Visual Studio 2015. You can learn more about the Visual Studio Emulator for Android [here](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2014/516).
 
 ###Install Visual Studio
 
-1. Download and install Visual Studio Community or Visual Studio Enterprise from the [Visual Studio Website](https://www.visualstudio.com/).
+The Visual Studio Emulator for Android does not require you to download and/or use Visual Studio, but if you would like to use the free (Community) or paid (Enterprise) Visual Studio, you can download and install Visual Studio Community or Visual Studio Enterprise from the [Visual Studio Website](https://www.visualstudio.com/). Whichever version you choose, it must be Visual Studio 2015 in order to run the emulator.
 
-2. Download and install the [Visual Studio Emulator for Android](https://www.visualstudio.com/en-us/features/msft-android-emulator-vs.aspx).
+###Install Visual Studio Android Emulator
+
+Download and install the [Visual Studio Emulator for Android](https://www.visualstudio.com/en-us/features/msft-android-emulator-vs.aspx).
+
+###Launch the App in Visual Studio Android Emulator
+
+There are 2 ways to launch the Visual Studio Android Emulator, as a stand-alone emulator and through Visual Studio. Which way you want to use the emulator determines how you start it, but after that the steps are the same.
+
+####As a Stand-Alone Emulator
+
+1. To launch the Visual Studio Android Emulator as a stand-alone emulator, click on the Start menu and search for "emulator" and select "Visual Studio Emulator for Android"
+
+  ![launch visual studio android emulator](/img/vs-emulator-start.jpg)
+
+####As Part of Visual Studio
+
+1. To launch the Visual Studio Android Emulator as part of Visual Studio, click on the Start menu and search for "Visual Studio" and click on "Visual Studio 2015"
+
+  ![launch visual studio](/img/vs-start.jpg)
 
 ###Copyright
 

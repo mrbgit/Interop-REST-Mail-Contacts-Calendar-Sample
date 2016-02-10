@@ -8,3 +8,5 @@
 /.idea
 .env
 Android/MeetingManagerAndroid/app/local.properties
+**/Android/MeetingManagerAndroid/app/src/main/java/com/microsoft/office365/meetingmgr/Constants.java
+
