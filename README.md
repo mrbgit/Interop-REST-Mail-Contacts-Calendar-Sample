@@ -156,7 +156,7 @@ To launch the Visual Studio Android Emulator as part of Visual Studio, click on 
 
 ---
 
-1. Once the emulator has started choose a device.
+1. Once the emulator has started choose a device by clicking the green triangle next to your choice.
   
   ![choose a device](/img/vs-emulator-choose-device.jpg)
 
